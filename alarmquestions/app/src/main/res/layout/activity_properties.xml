@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/active"
+            android:id="@+id/checkBox"
+            android:checked="true" />
+
+        <View
+            android:id="@+id/view2"
+            android:background="#ffcccccc"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/vibrate"
+            android:id="@+id/checkBox2"
+            android:checked="true" />
+
+        <View
+            android:id="@+id/view3"
+            android:background="#ffcccccc"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip" />
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/adView2"
+            android:orientation="vertical"
+            android:layout_weight="1.19">
+            <ListView android:id="@+id/list2"
+                android:longClickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>

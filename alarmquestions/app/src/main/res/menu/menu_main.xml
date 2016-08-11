@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@+id/menu_item_new" android:title="@string/menu_item_new" appcompat:showAsAction="always" />
+    <item android:icon="@android:drawable/ic_menu_save" android:id="@+id/menu_item_save" android:title="@string/menu_item_save" appcompat:showAsAction="always" android:visible="false" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@+id/menu_item_delete" android:title="@string/menu_item_delete" appcompat:showAsAction="always" android:visible="false" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@+id/menu_item_deleteAll" android:title="@string/menu_item_deleteAll" />
+    <item android:icon="@android:drawable/star_on" android:id="@+id/menu_item_rate" android:title="@string/menu_item_rate" />
+</menu>

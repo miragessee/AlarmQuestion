@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alarm Questions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-0377151927947204/9128970524</string>
+    <string name="menu_item_delete">Sil</string>
+    <string name="menu_item_new">Yeni</string>
+    <string name="menu_item_rate">Google Play de Oyla</string>
+    <string name="menu_item_save">Kaydet</string>
+    <string name="menu_item_deleteAll">Hepsini sil</string>
+    <string name="no_alarms">Şuan kurulu alarm yok.</string>
+    <string name="title_activity_properties">Özellikler</string>
+    <string name="active">Aktif</string>
+    <string name="vibrate">Titreşim</string>
+    <string name="repeat">Tekrar</string>
+    <string name="difficulty">Zorluk</string>
+    <string name="ringtone">Zil sesi</string>
+    <string name="settime">Ayarlanan saat</string>
+    <string name="easy">Kolay</string>
+    <string name="medium">Normal</string>
+    <string name="hard">Zor</string>
+    <string name="monday">Pazartesi</string>
+    <string name="tuesday">Salı</string>
+    <string name="wednesday">Çarşamba</string>
+    <string name="thursday">Perşembe</string>
+    <string name="friday">Cuma</string>
+    <string name="saturday">Cumartesi</string>
+    <string name="sunday">Pazar</string>
+    <string name="everday">Her gün</string>
+    <string name="selecttime">Saat Seç</string>
+    <string name="ok">Tamam</string>
+    <string name="delete">Sil</string>
+    <string name="deletethisalarm">Alarmı silmek istiyor musun?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+</resources>

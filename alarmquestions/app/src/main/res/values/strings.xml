@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Alarm Questions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-0377151927947204/9128970524</string>
+    <string name="menu_item_delete">Cancel</string>
+    <string name="menu_item_new">New</string>
+    <string name="menu_item_rate">Rate on Google Play</string>
+    <string name="menu_item_save">Save</string>
+    <string name="menu_item_deleteAll">Delete All Alarms</string>
+    <string name="no_alarms">No alarms have been set</string>
+    <string name="title_activity_properties">Properties</string>
+    <string name="active">Active</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="repeat">Repeat</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="settime">Set Time</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="everday">Everyday</string>
+    <string name="selecttime">Select Time</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="deletethisalarm">Delete this alarm?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+</resources>
